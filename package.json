@@ -1,0 +1,13 @@
+{
+  "name": "sedori-automation",
+  "version": "1.0.0",
+  "description": "せどりブログ運営の自動化ツール群",
+  "scripts": {
+    "screenshot": "node scripts/screenshot.js",
+    "wp-post": "node scripts/wp-post.js",
+    "publish": "node scripts/publish.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}
